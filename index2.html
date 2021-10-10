@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Destination Page</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+
+
+        }
+
+        #spasi {
+            padding-right: 20px;
+        }
+
+        #gelap {
+            background-color: #1D1E20;
+        }
+
+
+        #box1 {
+
+            background-image: url("images/flight.jpg");
+            background-color: #1D1E20;
+            background-repeat: no-repeat;
+            background-size: 160%;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        #box2 {
+            background-color: #1D1E20;
+        }
+
+        #prior li {
+            color: white;
+            font-size: large;
+        }
+
+        #box2 p{
+            color: white;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" ><img src="images/MIO.png" style="width: 70px;"alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item" id="spasi">
+                        <a class="nav-link" href="index2.html">Destination</a>
+                    </li>
+                    <li class="nav-item" id="spasi">
+                        <a class="nav-link" href="index3.html">Curator</a>
+                    </li>
+                    <li class="nav-item" id="spasi">
+                        <a class="nav-link" href="index4.html">Account</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="gelap">
+
+        <div class="row" id="begron">
+            <div class="col-sm-3" id="begron1"></div>
+            <div class="col-sm-6">
+                <br><br>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/NZ.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Nihon.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Italy.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-sm-3" id="begron3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"><BR><BR><BR><BR><BR><BR><BR><BR></div>
+            <div class="col-sm-4" id="begron5">
+                <div class="container">
+                    <BR><BR>
+                    <BR><BR>
+                    <div class="row">
+
+
+                        <h1 style="color: white; text-align: center;">
+                            CHOOSE YOUR DESTINATION
+                        </h1>
+
+                    </div>
+                    <br>
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-6">
+                                <div class="text-center">
+                                    <label for="validationCustom04" class="form-label"></label>
+                                    <select class="form-select" id="validationCustom04" required>
+                                        <option selected disabled value="">Choose...</option>
+                                        <option>Italy</option>
+                                        <option>Japan</option>
+                                        <option>New Zealand</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                    </div>
+
+                                    </br>
+                                    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3"></div>
+                        </div>
+
+                    </form>
+                    <BR><BR>
+                    <BR><BR>
+                </div>
+
+            </div>
+            <div class="col-sm-4"><BR><BR><BR><BR><BR><BR><BR><BR></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" id="box1">
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+            </div>
+            <div class="col-sm-8" id="box2">
+                <div class="container">
+                    <br>
+                    <br>
+                    <h1 style="color: white; text-align: center;">Destination</h1>
+                    <br>
+                    <br>
+                    <p>Italy<br>
+                        A nation with a multitude of cultural and religious heritage, and a destination for millions of
+                        tourists. Plan your trip with our service to experience the real Italy.</p>
+                    <p>Japan<br>
+                        Anime, sushi, and ramen, those are the most famous thing from Japan. But, Japan is so much more
+                        than that, it has a lot of beautiful buildings and scenery that you can visit. With a lot of
+                        sites and activities to choose from, get your curated list today, so you can get the most out of
+                        your trip.</p>
+                    <p>
+
+                        New Zealand<br>
+                        Wonderful landscape and interesting history, New Zealand is heaven for travelers who delights in
+                        nature activities. On the other hand, you can experience the fresh air from a luxury hotel, our
+                        list of activities will satisfy all your desire.
+
+                    </p>
+                </div>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
